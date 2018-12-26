@@ -1,0 +1,89 @@
+1.	Introduction to Python
+
+C, Pascal or FORTRAN  - 	functional aspects of programming. Programming is using several function
+
+Object oriented programming – java and .NET, programming is done by using classes and objects
+		Best use when dealing with heavy projects
+
+C = functional coding
+Java  = object and classes
+Python = functional programming ( C ) + objects and classes programming   ( Java )
+
+-	Easy to understand code and develop
+-	1991 by Guido Van Rossum with first working draft in 1990
+-	Open source software and source code can be accessed and modify as required in the Project
+
+Features of Python
+•	Simple – feel like reading English sentence, clarity and less stress on understanding
+
+•	Easy to learn – very few keywords and migrating from c to Python is easy
+
+•	Open source – free and source code can be accessed and modify as required in the Project
+
+•	High level language –
+         o	Low level language – Machine language and assembly language
+                                 Machine code instruction to directly interact with CPU
+         o	High level language – English words to develop programs, easy to learn and use
+                        COBOL, PHP OR JAVA and Python
+
+•	Dynamically typed - *
+
+•	Platform independent – can use almost all OS
+
+•	Portable – portable program as it can run in any computer system by using PVM
+               System dependent modules which cannot run on specific computer system
+
+•	Procedure and object oriented
+         o	C and C++ = procedure and function oriented
+         o	Java  = object and classes oriented
+         o	Python = procedure and function  + object and classes oriented
+                    -	Ex. – Dog and Bird = Classes
+                    -	Snoopy, parrot, Tommy = object
+                    -	Attributes like height, weight, age, color can represented by Variable
+                    -	Action like barking, biting, eating can represent by method and function
+                            o	No memory allocated when class created
+                            o	Memory can allocate when an object created
+                            o	Objects – Variable, lists, function, arrays
+
+•	Interpreted
+
+•	Extensible – C and C++ by PVM (Python virtual Machine )
+                JAVA code can integrated into Python by Jython and run JVM ( Java virtual machine )
+                IronPython  for .NET and CLR ( Common language runtime )
+
+•	Embeddable – python program can integrated in other language
+
+•	Huge library
+
+•	Scripting language – does not require complier for executing the source code
+
+•	Database connectivity
+
+•	Batteries included – provides small application and package for direct use
+                        Ex. Scipy is scientific library to do scientific and engineering calculation
+	                        Sympy is package for computer algebra system (CAS) in Python
+
+
+Execution of a Python Program
+
+1.source code – written code
+2.Byte code – after using compiler
+3.Machine code – after using PVM ( interpreter )
+4. execution on computer
+
+
+Interpreter translate program source code line by line – Slow speed
+
+JIT compiler - Compiler + PVM   - High speed
+                CPython  - software which is built in C language / JIT can not work
+                PyPy – software is built in Python language / JIT can work
+
+PVM ( python virtual machine )
+
+Frozen Binaries
+
+Garbage collection
+https://www.youtube.com/watch?v=hg01TTzi6Xk
+
+Memory management in Python
+https://www.youtube.com/watch?v=arxWaw-E8QQ
