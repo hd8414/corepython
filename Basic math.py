@@ -14,3 +14,4 @@ print ('multi of a and b = %.3f'%e)
 print ('div of a by b = %.1f'%f)
 print ('mod of a by a = %.2f'%g)
 print ('power of a of b = %.2f'%h)
+
