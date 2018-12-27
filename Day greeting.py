@@ -13,7 +13,7 @@ elif time >= 12 and time < 17:
     print ('Good afternoon ')
 elif time >= 17 and time < 20:
     print ('Good evening')
-elif time >= 20 and time < 24:
+elif time >= 20 and time <= 24:
     print ('Good night')
 else :
     print ('please enter valid value')
