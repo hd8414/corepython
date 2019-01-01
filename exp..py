@@ -1,7 +1,11 @@
-for row in range(7):
-    for col in range(5):
-        if col==0 or row==0 or row==3 or row ==6:
-            print('*',end=' ')
-        else:
-            print(end='  ')
+for i in range(0,6):
+    for j in range(0,6):
+        if i==0:
+            print('1',end=' ')
+    for j in range(1,6-i):
+        print(end='  ')
+    # for j in range(0,1):
+      # print ('*', end=' ')
+
     print ('')
+print('')
