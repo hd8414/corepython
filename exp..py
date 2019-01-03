@@ -1,11 +1,8 @@
-for i in range(0,6):
-    for j in range(0,6):
-        if i==0:
-            print('1',end=' ')
-    for j in range(1,6-i):
-        print(end='  ')
-    # for j in range(0,1):
-      # print ('*', end=' ')
-
-    print ('')
+for row in range(0,6):
+    for col in range(0,6):
+        if row==col and col>2:
+            print('*',end='  ')
+        else:
+            print (end='   ')
+    print('')
 print('')
