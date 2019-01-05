@@ -1,7 +1,16 @@
-for i in range(6):
-    for j in range(0,6-i-1):
-        print (end='')
-    for j in range (0,i+1):
-        print('*',end=' ')
-    print ('')
-print ('')
+i=1
+j=5
+for row in range(7):
+    for col in range (7):
+        if row == 0:
+            print('*',end=' ')
+        elif(row==i and col==j):
+            print ('*',end=' ')
+            i=i+1
+            j=j-1
+        else:
+            print(end='  ')
+    print('')
+print('')
+
+
