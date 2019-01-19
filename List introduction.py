@@ -81,9 +81,24 @@ print(fruits)               # append
 
 fruits.reverse()            # reverse
 
+x = fruits.index('orange')
+print (x)                   #index
+
+fruits.pop(2)
+print(fruits)               #pop
+
+fruits.remove('cherry')
+print (fruits)              # remove
+
 fruits.clear()
 print (fruits)               #clear
 
 
+# extend list
 
+fruits2 = ['apple', 'banana', 'cherry']
+cars = ['Ford', 'BMW', 'Volvo']
+
+fruits2.extend(cars)         # extend
+print(fruits2)
 
