@@ -96,9 +96,11 @@ print (fruits)               #clear
 
 # extend list
 
-fruits2 = ['apple', 'banana', 'cherry']
+fruits2 = ['apple', 'banana', 'cherry', 'banana']
 cars = ['Ford', 'BMW', 'Volvo']
 
 fruits2.extend(cars)         # extend
 print(fruits2)
 
+y = fruits2.count('banana')
+print (y)                    # count
